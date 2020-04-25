@@ -1,0 +1,21 @@
+Packages to sort classes
+
+
+Threads
+- Allow processes to run in parallel.
+- Was used to create a start and stop thread
+
+Buffer Strategies
+- Prevents flickering during the game
+- A buffer is essentially a second 'internal' screen that the program draws to before displaying to the actual screen
+- It is an internal memory
+
+Graphics
+- Graphics object was made to draw graphics to the canvas
+- In Java, the coordinate system works with the y-axis being flipped (up to down is increasing)
+
+Tick Method
+- Updates the game logic as it is running
+
+Render Method
+- Updates the screen as it is running
