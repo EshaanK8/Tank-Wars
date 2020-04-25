@@ -1,3 +1,8 @@
+Program Structure:
+START METHOD--> STARTS THE START THREAD--> CALLS RUN METHOD--> CALLS INIT METHOD--> CALLS DISPLAY METHOD 
+
+
+
 main.game package:
 
 -Launcher Class (main class)
