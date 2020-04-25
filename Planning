@@ -1,0 +1,41 @@
+main.game package:
+
+-Launcher Class (main class)
+   Notes:
+    - Contains the main method
+    - Launches the game
+   
+   
+-Game Class
+
+   Attributes:
+      private Display display;
+      public int width, height; //dimension attributes
+      public String title; //title attribute
+      private boolean running = false; //Used for while loop to allow game to run
+      private Thread thread;
+  
+  Constructor:
+      public Game(String title, int width, int height)
+      
+  Notes:
+    - This is essentially the class that contains the main game
+    - Calls the display class to display the game
+    - Contains the main framework of the game, such as the tick, render and run methods
+
+
+main.display package:
+
+- Display Class
+  
+   Attributes:
+      private JFrame frame; //window
+      private Canvas canvas; //allows for graphics
+      private String title; //window title
+      private int width, height;//window dimensions 
+      
+   Constructor:
+      public Display(String title, int width, int height)
+      
+   Notes:
+    - This class creates a JFrame and a canvas to display graphics on the game
