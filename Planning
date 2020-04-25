@@ -44,3 +44,11 @@ main.display package:
       
    Notes:
     - This class creates a JFrame and a canvas to display graphics on the game
+
+
+main.game.gfx package:
+
+- ImageLoader Class
+   Notes:
+   - Used to import and draw images to the screen
+   - Uses "return ImageIO.read(ImageLoader.class.getResource(path));" to return the buffered image object of the loaded image
