@@ -52,3 +52,7 @@ main.game.gfx package:
    Notes:
    - Used to import and draw images to the screen
    - Uses "return ImageIO.read(ImageLoader.class.getResource(path));" to return the buffered image object of the loaded image
+   
+- SpriteSheet Class
+   Notes:
+   -A simple class used to crop spritesheets so that their individual sprites can be shown
