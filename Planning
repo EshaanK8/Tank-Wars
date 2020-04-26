@@ -56,3 +56,7 @@ main.game.gfx package:
 - SpriteSheet Class
    Notes:
    -A simple class used to crop spritesheets so that their individual sprites can be shown
+   
+- Assets Class
+   Notes:
+   - Used to store assets and crop specific images from the spritesheet and assign them to Buffered Images so they can be easily called
